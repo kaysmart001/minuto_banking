@@ -19,11 +19,11 @@ if (isset($_SESSION['employeeid']))
 <head>
 <link href="images/favicon.ico" rel="shortcut icon">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>The Bank of Gotham City</title>
+<title>MinutoFinance</title>
 <link href="css/LoginPageStyle.css" rel="stylesheet" type="text/css" />
-</head>
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" /></head>
 <body>
-    <img id="contain" src="images/batman2.jpg">
+    
     <div><img src="images/batman1.png" id="batimg1"><img src="images/batman1.png" id="batimg2"></div>
     <div id="bodycontent">
 
@@ -39,7 +39,7 @@ if (isset($_SESSION['employeeid']))
         </div> <!-- end of site_title -->
     </div> <!-- end of header -->
 
-<div id="toptabmenu">
+<!--  <div id="toptabmenu">
     <ul id="nav">
         <li><a href="index.php">Home</a></li>
         <li><a href="login.php">Login</a></li>
@@ -61,29 +61,50 @@ if (isset($_SESSION['employeeid']))
         <li><a href="contactus.php">Contact Us</a></li>
     </ul>
     
+</div> -->
+<?php require_once('nav.php') ?>
 </div>
-</div>
-     <div id="templatemo_main"><span class="main_top"></span> 
+     <!-- <div id="templatemo_main"><span class="main_top"></span> 
          <div id="rightpanel"> <span class="rightpaneltext"> Head Office : 
 
-<p>THE BANK OF GOTHAM CITY <br/>
-STAR HOUSE<br/> 
-C - 5, "G" Block,<br/> 
-Batman Complex, <br/>
-Kolkata.<br/>
-West Bengal. India</br>
-Ph: 022-66684444 <br/>
-Email: bankgotham@gmail.com
-</P>
-<p>
-For all your enquiries :
-Call at Tele No - (022) – 40919191 / 1800 220 229 (all days)
-24 X 7</p></span></div> 
- <div id="leftpanel"><img src="images/note.png" width="220" height="200"/>
-        <span class="leftpaneltext">Contact us...</span></div>
-         <div id="rightpanel"></div>
+            <p>THE BANK OF GOTHAM CITY <br/>
+            STAR HOUSE<br/> 
+            C - 5, "G" Block,<br/> 
+            Batman Complex, <br/>
+            Kolkata.<br/>
+            West Bengal. India</br>
+            Ph: 022-66684444 <br/>
+            Email: bankgotham@gmail.com
+            </P>
+            <p>
+            For all your enquiries :
+            Call at Tele No - (022) – 40919191 / 1800 220 229 (all days)
+            24 X 7</p></span>
+        </div> 
+
+       <div id="leftpanel"><img src="images/note.png" width="220" height="200"/>
+              <span class="leftpaneltext">Contact us...</span>
+        </div>
+
+      <div id="rightpanel"></div> -->
+
+     <div class="row">
+       <div class="container">
+         <div class="col-md-12">
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+           cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+           proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+         </div>
+       </div>
+     </div>
+
     </div> 
     </div>
     <?php include'footer.php' ?>
     </body>
 </html>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>

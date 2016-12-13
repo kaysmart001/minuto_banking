@@ -21,12 +21,12 @@ while($arrow = mysql_fetch_array($results))
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>The Bank of Gotham City</title>
+<title>MinutoFinance</title>
 <link href="css/LoginPageStyle.css" rel="stylesheet" type="text/css" />
-<link href="images/favicon.ico" rel="shortcut icon">
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="images/favicon.ico" rel="shortcut icon">
 </head>
 <body>
-    <img id="contain" src="images/batman2.jpg">
+    
     <div><img src="images/batman1.png" id="batimg1"><img src="images/batman1.png" id="batimg2"></div>
     <div id="bodycontent">
 
@@ -139,3 +139,5 @@ while($arrow = mysql_fetch_array($results))
     </div>
 </body>
 </html>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>

@@ -19,12 +19,12 @@ if (isset($_SESSION['employeeid']))
 <head>
 <link href="images/favicon.ico" rel="shortcut icon">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>The Bank of Gotham City</title>
+<title>MinutoFinance</title>
 <link href="css/LoginPageStyle.css" rel="stylesheet" type="text/css" />
-<link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <img id="contain" src="images/batman2.jpg">
+    
     <div><img src="images/batman1.png" id="batimg1"><img src="images/batman1.png" id="batimg2"></div>
     <div id="bodycontent">
 
@@ -39,7 +39,7 @@ if (isset($_SESSION['employeeid']))
             
         </div> <!-- end of site_title -->
     </div> <!-- end of header -->
-<div id="toptabmenu">
+<!-- <div id="toptabmenu">
     <ul id="nav">
         <li><a href="index.php">Home</a></li>
         <li><a href="login.php">Login</a></li>
@@ -61,7 +61,8 @@ if (isset($_SESSION['employeeid']))
         <li><a href="contactus.php">Contact Us</a></li>
     </ul>
     
-</div>
+</div> --> 
+<?php require_once('nav.php') ?>
 </div>
      <div id="templatemo_main">
         <div class="image view"><img src="images/iron bank.jpg" alt="The Iron Bank" title="The Iron Bank" /><div class="mask">  
@@ -116,5 +117,5 @@ if (isset($_SESSION['employeeid']))
    </div>
     <?php include'footer.php' ?>
 </body>
-</html>
-
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
