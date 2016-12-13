@@ -9,20 +9,13 @@
   </div>
   <div class="">
     <ul class="nav navbar-nav">
-       <li><a href="index.php">Home</a></li>
-        <li><a href="login.php">Login</a></li>
-        <li><a href="branches.php">Branches</a></li>
-        <li><a href="help.php">FAQ</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Downloads <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="downloads/New_Account.pdf">New Account Form</a></li>
-            <!-- <li><a href="#">Loan Forms</a></li> -->
-            <li><a href="downloads/ChequeBook_Request.pdf">Cheque book request</a></li>
-          </ul>
-        </li>
-        <li><a href="aboutus.php">About Us</a></li>
-      <!-- <li class="dropdown">
+       <li><a href="admindashboard.php">Dashboard</a></li>
+        <li><a href="viewbranch.php">Settings</a></li>
+        <li><a href="viewcustomer.php">customers</a></li>
+        <li><a href="viewtransaction.php">Transactions</a></li>
+        <li><a href="mailinbox.php">Mail</a></li>
+        <li><a href="logout.php">logout</a></li>
+        <!-- <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
         <ul class="dropdown-menu">
          

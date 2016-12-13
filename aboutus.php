@@ -29,15 +29,7 @@ if (isset($_SESSION['employeeid']))
 
 <div id="templatemo_wrapper">
 
-    <div class="mainbox">
-        <img src="images/logo.png" width="200" height="100" style="float:left; margin:2em 2em;">
-        <div id="site_title">
-        
-            <h1 style="margin-top: 30px;"><a href="index.php" style="color:yellow; text-decoration: none; margin-left: 1em;"><span>The Bank of Gotham City</span></a></h1>
-            <p style="float:right; margin-right: 2.2em; color: buttonface; font-family: Satisfy,cursive; font-size: 2.5em;">.......A Silent Guardian</p>
-            
-        </div> <!-- end of site_title -->
-    </div> <!-- end of header -->
+    
 
 <!--  <div id="toptabmenu">
     <ul id="nav">
@@ -64,42 +56,46 @@ if (isset($_SESSION['employeeid']))
 </div> -->
 <?php require_once('nav.php') ?>
 </div>
-     <!-- <div id="templatemo_main"><span class="main_top"></span> 
-         <div id="rightpanel"> <span class="rightpaneltext"> Head Office : 
 
-            <p>THE BANK OF GOTHAM CITY <br/>
-            STAR HOUSE<br/> 
-            C - 5, "G" Block,<br/> 
-            Batman Complex, <br/>
-            Kolkata.<br/>
-            West Bengal. India</br>
-            Ph: 022-66684444 <br/>
-            Email: bankgotham@gmail.com
-            </P>
-            <p>
-            For all your enquiries :
-            Call at Tele No - (022) – 40919191 / 1800 220 229 (all days)
-            24 X 7</p></span>
-        </div> 
-
+     <div id="templatemo_main"><span class="main_top"></span> 
+        
+<!-- 
        <div id="leftpanel"><img src="images/note.png" width="220" height="200"/>
               <span class="leftpaneltext">Contact us...</span>
         </div>
 
       <div id="rightpanel"></div> -->
 
-     <div class="row">
-       <div class="container">
-         <div class="col-md-12">
-           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-           cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-           proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+       <div class="">
+       <div class="container-fluid">
+         <div class="col-md-8 col-md-offset-2">
+           
+           <form name="tempForm" class="form-horizontal">
+             <fieldset>
+               
+               <div class="form-group">
+                 <label class="col-md-4">Ernest Asare-Asiedu</label>
+                 <div class="col-md-8">
+                   <textarea readonly="" class="form-control" cols="9">Mentored by the best, skilled in formulating complex loggin and debuggin prowes is the project co-leader</textarea>
+                 </div>
+               </div>
+
+               <div class="form-group">
+                 <label class="col-md-4">Henry Miller</label>
+                 <div class="col-md-8">
+                   <textarea readonly="" class="form-control" cols='9'>Mentored by the best, skilled in formulating complex loggin and debuggin prowes is the project co-leader</textarea>
+                 </div>
+               </div>
+
+
+             </fieldset>
+           </form>
+
          </div>
        </div>
      </div>
+    
+ 
 
     </div> 
     </div>

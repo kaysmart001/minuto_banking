@@ -67,15 +67,7 @@ else{
 
 <div id="templatemo_wrapper">
 
-    <div class="mainbox">
-        <img src="images/logo.png" width="200" height="100" style="float:left; margin:2em 2em;">
-        <div id="site_title">
-        
-            <h1 style="margin-top: 30px;"><a href="index.php" style="color:yellow; text-decoration: none; margin-left: 1em;"><span>The Bank of Gotham City</span></a></h1>
-            <p style="float:right; margin-right: 2.2em; color: buttonface; font-family: Satisfy,cursive; font-size: 2.5em;">.......A Silent Guardian</p>
-            
-        </div> <!-- end of site_title -->
-    </div> <!-- end of header -->
+    
 <!-- <div id="toptabmenu">
     <ul id="nav">
         <li><a href="index.php">Home</a></li>
